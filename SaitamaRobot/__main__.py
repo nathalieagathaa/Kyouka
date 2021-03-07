@@ -52,28 +52,23 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
+Hi {}~ Watashi Wa Kyouka Desu! I will cheer you up if you are bored. I also have a lot of features! Type /help to find out my features.
 
-Yo! I'm Mihai I'm a Bot Manager for an Anime Themed Group. I'm very good at controlling the group! Type /help to find the appropriate menu
-
-
-Indonesia:
-
-Yo! Aku Mihai Aku Adalah Bot Manager Group Bertema Anime. Aku sangat Pintar Mengendalikan grup! Ketik /help Untuk Menemukan Menu Yang sesuai
 
 """
 
 HELP_STRINGS = """
 Hey there! My name is Mihai!.
-I'm A Vampire & I help admins to manage their groups! Have a look at the following for an idea of some of \
+I'm From Port Mafia & I help admins to manage their groups! Have a look at the following for an idea of some of \
 the things I can help you with.
 
-*Main* commands available:
- 🎧 /help: PM's you this message.
- 🎧 /help <module name>: PM's you info about that module.
- 🎧 /donate: information on how to donate!
- 🎧 /settings:
-   🎧 in PM: will send you your settings for all supported modules.
-   🎧 in a group: will redirect you to pm, with all that chat's settings.
+*Main* commands available: [><](https://telegra.ph/file/4b2c08330c8e0f51e1771.jpg)
+ 🎀 /help: PM's you this message.
+ 🎀 /help <module name>: PM's you info about that module.
+ 🎀 /donate: information on how to donate!
+ 🎀 /settings:
+   🎀 in PM: will send you your settings for all supported modules.
+   🎀 in a group: will redirect you to pm, with all that chat's settings.
 
 
 {}
@@ -82,7 +77,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/23459b5a674ed0e763166.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/703e8a361321c66c51cf2.mp4"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Senku is hosted on one of Heroku's Servers and doesn't require any donations as of now but \
